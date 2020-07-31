@@ -1,0 +1,165 @@
+:root{
+    --color-primario: #C46F5F;
+    --color-secundario: #E5BE9C;
+}
+
+body{
+    background-color: lightslategrey;
+}
+
+.contenedor_principal{
+    width: 700px;
+    height: 720px;
+    margin: auto;
+}
+.div_izquierdo{
+    color: #FFF6E9;
+    float: left;
+    width: 300px;
+    height: 720px;
+    background-color: var(--color-primario);
+    border-radius: 5px;
+}
+
+.div_derecho{
+    float: right;
+    width: 400px;
+    height: 720px;
+    background-color: #FFF6E9;
+    border-radius: 5px;
+}
+
+.foto_ramon{
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.div_foto_ramon{
+    width: 95px;
+    margin-top: 15px;
+    margin-left: 105px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.titulo_curriculum{
+    background-color: var(--color-secundario);
+    margin-left: -20px;
+    height: 50px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.titulo_formacion{
+    background-color:  var(--color-secundario);
+    color: white;
+    margin-top: 30px;
+    margin-left: -10px;
+    text-align: center;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.titulo_trabajos{
+    background-color:  var(--color-secundario);
+    color: white;
+    margin-top: 20px;
+    margin-left: -10px;
+    text-align: center;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.div_info_general{
+    color: #FFF6E9;
+}
+
+.titulo_objetivos{
+    background-color:  var(--color-secundario);
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+
+.lista_informacion{
+    list-style-type: none;
+}
+
+.objetivos_contenido{
+    color: grey;
+    padding: 10px;
+}
+
+.contenido_formacion{
+    color: grey;
+    padding: 10px;
+    width: 360px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 5px;
+  }
+
+.contenido_trabajos{
+    color: grey;
+    padding: 10px;
+    width: 360px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.bold{
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.titulo_informatica, .titulo_idiomas, .titulo_intereses{
+    background-color:  var(--color-secundario);
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+
+.barra{
+    width: 200px;
+    height: 10px;
+    background: -webkit-linear-gradient(0deg, var(--color-secundario) 0%, #FFF6E9 0);
+    border-radius: 3px;
+    margin-left: 55px;
+}
+
+.text_informatica{
+    margin-left: 130px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.lista_intereses{
+    margin-left: 70px;
+}
+
+
+  
+
+  
