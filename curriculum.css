@@ -3,9 +3,6 @@
     --color-secundario: #E5BE9C;
 }
 
-
-
-
 body{
     background-color: lightslategrey;
 }
@@ -16,7 +13,6 @@ body{
     margin: auto;
 }
 .div_izquierdo{
-    
     color: #FFF6E9;
     float: left;
     width: 300px;
@@ -164,21 +160,6 @@ th, td {
 }
 
 
-@media (max-width: 700px) { 
-
-    .div_izquierdo{
-        height: 760px;
-    }
-
-    .div_derecho{
-        height: 760px;
-    }
-
-    .titulo_curriculum{
-        font-size: 25px;
-        height: 30px;
-    }
-
- }
+  
 
   
