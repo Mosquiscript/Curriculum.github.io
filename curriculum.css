@@ -160,6 +160,21 @@ th, td {
 }
 
 
-  
+@media (max-width: 700px) { 
+
+    .div_izquierdo{
+        height: 760px;
+    }
+
+    .div_derecho{
+        height: 760px;
+    }
+
+    .titulo_curriculum{
+        font-size: 25px;
+        height: 30px;
+    }
+
+ }
 
   
